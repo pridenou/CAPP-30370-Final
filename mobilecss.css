@@ -1,0 +1,47 @@
+/* mobile version css */
+
+header { 
+	height: 150px; 
+	background: url(halo11.jpg) no-repeat right 0px; 
+}
+
+
+article { 
+	padding: 20px 20px 10px 20px; 
+}
+
+
+.halo_container { padding: 0px; }
+
+.halo_container .halo {
+	width: auto;
+	float: none;
+	padding: 10px 0px 0 px 0px;
+	background-position: 20px 13px;
+	border-top: 1px solid #B64926;	
+}
+
+.halo_container .halo .content { 
+	padding: 0px 20px 15px 90px; 
+}
+
+nav { 
+	position: static;
+	padding: 10px 0px 10px 0px;
+	background-color: #B64926;
+}
+
+nav a { 
+	color: #8E2800;
+	display: block;
+	border: 2px solid #8E2800;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 10px;
+	background-color: #FFB03B;
+}
+
+nav a: hover { color: #fff; background-color: #fff; }
+
+footer { border-top: 2px solid #FFB03B; }
+

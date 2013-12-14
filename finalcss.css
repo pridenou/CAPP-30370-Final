@@ -1,0 +1,116 @@
+ /* Applies to all screen sizes */
+ 
+body {
+	color: #468966;
+	line-height: 1.5em;
+	font-family: Georgia;
+	font-size: 14px;
+	background: url(halo7.jpg);
+}
+
+img {max-width:100%; }
+
+
+
+.wrapper {
+	margin: 2em auto;
+	width:800px;
+
+}
+ 
+
+.penguin {
+	position: absolute;
+	top: 10px;
+	left: 5px;
+	content:url(Halofirst.gif);
+	-webkit-animation: zoom 19s linear infinite
+
+}
+ 
+ @-webkit-keyframes zoom { 
+	from{-webkit-transform:translateX(-500px);}
+	to {-webkit-transform:translateX(1500px);}
+ }
+
+
+
+.page{ 
+	max-width: 1000px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	background-color:#FFF0A5;
+}
+
+.box {width:100px; height:100px; padding:2em; border:1px solid black; background-color:#FFB03B;}
+
+footer { 
+	font-size: 11.5px;
+	color: #FFF0A5; 
+	padding: 12px 12px 12px 0px; 
+	background-color: #B64926; 	
+}
+
+a.daslinks { 
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: .5em 0 0 0;	
+}
+
+
+.halo h3 { 
+	font-size: 15px; 
+	margin: 0; 
+}
+
+.halo p { 
+	font-size: 13px; 
+	line-height: 16px; 
+	margin-bottom: .5em; 
+}
+
+.halo { background-repeat: no-repeat; }
+	.halo.one { background-image: url(img3.jpg); }
+	.halo.two { background-image: url(img2.jpg); }
+	.halo.three { background-image: url(img11.jpg); }
+
+h1 { 
+	font-size: 2em; 
+	font-weight: normal; 
+	color: #468966; 
+	margin: 0 0 .5em 0; 
+}
+
+h2 { 
+	font-size: 1.7em; 
+	margin: 0 0 1em 0; 
+}
+
+h3 { 
+	font-size: 1.5em; 
+	margin: 0 0 1em 0; 
+}
+
+h4 { 
+	font-size: 1.3em;
+	margin: 0 0 1em 0;
+}
+
+p { margin: 0 0 .75em 0; }
+a { color: #FFB03B; }
+a:hover { color: #009eff;}
+
+nav a { 
+	color: #FFF0A5;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	font-size: .9em;
+}
+
+nav a:hover { color: #FFF; }
+
+.test1 { clear: both; line-height: 1px; }

@@ -1,0 +1,46 @@
+/* desktop version css */
+
+body { margin: 0; padding: 0; }
+
+
+nav { 
+	width: 100%;
+	display: block;
+	position: absolute;
+	background-color: #B64926;
+	top: 275px;
+}
+
+
+
+header {
+	height: 275px;
+	background: url(anotherhalo.jpg) no-repeat right 0px;
+}
+
+img { img {float:right; max-width:20%; margin:0 0 1em 2em;}}
+
+article { 
+	padding: 60px 20px 10px 20px;
+}
+
+.halo_container { 
+	padding: 0px 0px 15px 20px; 
+}
+
+.halo_container .halo {
+	width: 33%;
+	float: left;
+	background-position: 0px 3px;	
+}
+
+.halo_container .halo .content { 
+	padding: 0px 30px 0px 70px; 
+}
+
+
+nav a { margin: 12px 0px 10px 20px; }
+
+@media screen and (max-width:1000px){ 
+	footer { padding-left: 20px; }
+}

@@ -1,0 +1,15 @@
+/* tablet version css */
+
+header { 
+	height: 200px; 
+	background: url(halobanner12.jpg) no-repeat 90% 0px;
+}
+
+nav { top: 200px; }
+
+.halo_container { padding: 0px 10px 15px 15px; }
+
+.halo_container .halo { background-position: 0px 0px; }
+
+.halo_container .halo .content { padding: 60px 20px 0px 0px; }
+

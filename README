@@ -1,0 +1,28 @@
+README for Final Project CAPP30370
+
+--Describe the site purpose and goal
+The purpose of the site is to pay tribute to the greatest video game franchise of all time--Halo. The goal of this site is to provide additional information about Halo such as descriptions, reviews and memorable quotes. I threw in a few pictures of owls for good measure. And, a trap.
+
+--Include at least two breakpoints
+In order to make it easier to implement the media queries, I created a different .css file for desktop (desktopcss.css), tablet (tabletcss.css), and mobile (mobilecss.css).  Depending on the width of the browser, a specific .css file is called. For desktop: 751px or higher, for tablet: 750px - 531px, for mobile: 530px - 50px. Yes it probably isn't the most efficient way, but I never quite got my head around how the media queries were supposed to work in project 8.
+
+From desktop to tablet, the most noticeable change is the smaller banner, implemented mainly because the desktop banner was too large for tablets. The banner images are aligned to the right, so when the browser is resized, the image collapses from the left. The nav is now top 200px (because of smaller header) to rest right below the banner. Additionally, in the column area, the text is moved under the images by adjusting the container.halo.content padding
+
+From tablet to mobile, even smaller banner for mobile (150px) aligned to the right. Nav is set to position static, so that it will show up on the bottom of the screen (as it is located in HTML file). Navigation links are styled to look more like mobile link buttons. The columns, .halo, are given a width of auto to expand the entire area of the screen. Also, the float left is removed.
+
+--Include at least one page with a three-up or more column layout
+Added width of 33% with a float of left to make sure each section will take up 1/3 of the allotted area. Also, this will float content to the right-hand side of each images. In tablet, text moved below image. In mobile, columns stacked vertically by removing float, and width changed to auto from 33%
+
+Padding was added to the container-->halo-->content for each one to ensure the images (images 60 x 60 px) would not conflict with the text (hence 70px of padding, to add 10px extra space)
+
+--Include one CSS animation that runs on a continuous loop
+Visible on page 3. Located in finalcss.css. Essentially it is a .gif file moving slowly across the screen using a from -- to keyframe. It starts off screen (using negative origin) and moved to the right until it is hidden from view. In the css file I used the shorthand syntax I recently discovered so as to condense the amount of code from 4 lines to 1 line.
+
+--Include one CSS animation that runs on user interaction
+Used the hover events for all anchor tags (a:hover) and another to specifically target the nav. (nav a:hover) Therefore, the nav changes to white, whereas the links in the content area change to blue.
+
+--Include at least one background image
+The image was added in finalcss.css under section: body. No additional rules or positioning are applied. Yet, the background mainly comes into view when the browser exceeds 1000px, which is the set max width.
+
+--Include at least on visual jquery interaction
+The interaction is quite simple, as I spent too much time on the design of the site. I tried experimenting with an interactive nav... but, alas, maybe next time. On page 3, if the user clicks the box, it expands over an interval of 1.5 seconds. The class is .box in finalcss.css
